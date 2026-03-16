@@ -23,12 +23,12 @@ Une application doit être enregistrée dans **Microsoft Entra ID** avec :
 
 Ces 4 variables remontent dans le job parent. Elles représentent les paramètres d'infrastructure stables et n'ont généralement pas besoin d'être modifiées.
 
-| Variable | Valeur par défaut |
-|---|---|
-| `MICROSOFT_GRAPH_BASEURL` | `https://graph.microsoft.com/v1.0` |
-| `AZURE_AUTH_ENDPOINT` | `https://login.microsoftonline.com` |
-| `AZURE_OAUTH_PATH` | `/oauth2/v2.0/token` |
-| `MICROSOFT_GRAPH_SCOPE` | `https://graph.microsoft.com/.default` |
+| Variable                  | Valeur par défaut                      |
+| ------------------------- | -------------------------------------- |
+| `MICROSOFT_GRAPH_BASEURL` | `https://graph.microsoft.com/v1.0`     |
+| `AZURE_AUTH_ENDPOINT`     | `https://login.microsoftonline.com`    |
+| `AZURE_OAUTH_PATH`        | `/oauth2/v2.0/token`                   |
+| `MICROSOFT_GRAPH_SCOPE`   | `https://graph.microsoft.com/.default` |
 
 ---
 
@@ -56,13 +56,13 @@ Le joblet reçoit ses paramètres via un flux d'entrée (`tFixedFlowInput` ou é
 
 ### Paramètres fonctionnels
 
-| Colonne | Type | Description |
-|---|---|---|
-| `sharepoint_resource_path` | String | Chemin du dossier cible relatif à la racine du drive (ex : `/Entrants`, `/Factures/2025`) |
-| `local_download_directory` | String | Répertoire local de destination |
-| `sharepoint_file_filter` | String | Filtre de fichiers au format glob (ex : `*.csv`, `rapport_*.xlsx`) |
-| `is_archiving_enabled` | Boolean | Active l'archivage automatique après téléchargement |
-| `archive_folder_name` | String | Nom du sous-dossier d'archive dans SharePoint |
+| Colonne                    | Type    | Description                                                                               |
+| -------------------------- | ------- | ----------------------------------------------------------------------------------------- |
+| `sharepoint_resource_path` | String  | Chemin du dossier cible relatif à la racine du drive (ex : `/Entrants`, `/Factures/2025`) |
+| `local_download_directory` | String  | Répertoire local de destination                                                           |
+| `sharepoint_file_filter`   | String  | Filtre de fichiers au format glob (ex : `*.csv`, `rapport_*.xlsx`)                        |
+| `is_archiving_enabled`     | Boolean | Active l'archivage automatique après téléchargement                                       |
+| `archive_folder_name`      | String  | Nom du sous-dossier d'archive dans SharePoint                                             |
 
 #### À propos de `sharepoint_resource_path`
 
