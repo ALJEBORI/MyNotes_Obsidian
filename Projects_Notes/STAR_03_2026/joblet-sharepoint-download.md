@@ -40,11 +40,11 @@ Le joblet reçoit ses paramètres via un flux d'entrée (`tFixedFlowInput` ou é
 
 > 🔐 Ces 3 valeurs doivent impérativement provenir d'un **fichier de contexte chiffré** Talend. Ne jamais les saisir en clair.
 
-| Colonne | Description |
-|---|---|
-| `azure_tenant_id` | GUID du tenant Azure AD |
-| `azure_client_id` | App (client) ID de l'application Entra |
-| `azure_client_secret` | Secret client de l'application Entra |
+| Colonne               | Description                            |
+| --------------------- | -------------------------------------- |
+| `azure_tenant_id`     | GUID du tenant Azure AD                |
+| `azure_client_id`     | App (client) ID de l'application Entra |
+| `azure_client_secret` | Secret client de l'application Entra   |
 
 ### Drive ID
 

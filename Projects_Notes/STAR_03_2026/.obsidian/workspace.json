@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "joblet-sharepoint-download.md",
+                "file": "Star SharePoint doc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "joblet-sharepoint-download"
+              "title": "Star SharePoint doc"
             }
           }
         ]
@@ -208,6 +208,8 @@
   },
   "active": "7f66404575e711c7",
   "lastOpenFiles": [
+    "joblet-sharepoint-download.md",
+    "joblet-sharepoint-upload.md",
     "Star SharePoint doc.md",
     "Pasted image 20260316162541.png",
     "Pasted image 20260316160122.png",
@@ -215,9 +217,7 @@
     "Pasted image 20260316154219.png",
     "Pasted image 20260316153623.png",
     "Pasted image 20260316153751.png",
-    "joblet-sharepoint-download.md",
     "Pasted image 20260316111542.png",
-    "joblet-sharepoint-upload.md",
     "Welcome.md",
     "Untitled.md",
     "joblet-sharepoint-download 1.md",

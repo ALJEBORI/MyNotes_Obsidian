@@ -47,6 +47,8 @@ V 0.9: Remplacer le joblet FRK_Download_Sharepoint_Files par le nouveau joblet  
 
 ==**FRK_DOWNLOAD_GRAPH_FILES  0.1 :**==
 
+Input
+
 Etap 1: Create token 
           Method: POST
           call  URL:  context.API_MS_GRAPH_SHAREPOINT_AZURE_AUTH_ENDPOINT
