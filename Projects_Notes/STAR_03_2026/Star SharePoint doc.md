@@ -5,18 +5,43 @@ Job Name:
 
 - input parameter  
 
-| Input parameter           | data type | Comments                                                              |
-| ------------------------- | --------- | --------------------------------------------------------------------- |
-| sharepoint_ressource_path | string    |                                                                       |
-| local_download_directory  | string    | where to put the downloaded files in local                            |
-| sharepoint_file_filter    | string    | Regex file mask (file to be downloaded), ex   * *.csv, rapport_*.xlsx |
-| is_archiving_enabled      | string    | is archiving needed true else false                                   |
-| archive_folder_name       |           | name of archive folder                                                |
-| azure_tenant_id           | string    |                                                                       |
-| azure_client_id           | string    |                                                                       |
-| azure_client_secret       | string    | context.parameter_filename                                            |
-| drive_id                  | string    | context.STAR_LocalTmp_Path+ "/"                                       |
+| Input parameter           | data type | Comments                                                                                            |
+| ------------------------- | --------- | --------------------------------------------------------------------------------------------------- |
+| sharepoint_ressource_path | string    |                                                                                                     |
+| local_download_directory  | string    | where to put the downloaded files in local    context.STAR_LocalTmp_Path+ "/"                       |
+| sharepoint_file_filter    | string    | context.parameter_filename,   Regex file mask (file to be downloaded), ex   * *.csv, rapport_*.xlsx |
+| is_archiving_enabled      | string    | is archiving needed true else false                                                                 |
+| archive_folder_name       |           | name of archive folder                                                                              |
+| azure_tenant_id           | string    | context.API_MS_GRAPH_SHAREPOINT_STAR_tenant_id                                                      |
+| azure_client_id           | string    | context.API_MS_GRAPH_SHAREPOINT_STAR_client_id                                                      |
+| azure_client_secret       | string    | context.API_MS_GRAPH_SHAREPOINT_STAR_client_secret                                                  |
+| drive_id                  | string    |                                                                                                     |
 
+ **==Sharepoint connection file:  CNX_DEV_API_MS_GRAPH_SHAREPOINT_STAR.properties==**
+
+#Fri Mar 13 14:27:50 CET 2026
+API_MS_GRAPH_SHAREPOINT_STAR_tenant_id
+API_MS_GRAPH_SHAREPOINT_STAR_client_id
+API_MS_GRAPH_SHAREPOINT_STAR_client_secret
+API_MS_GRAPH_SHAREPOINT_STAR_host
+API_MS_GRAPH_SHAREPOINT_STAR_site_name
+API_MS_GRAPH_SHAREPOINT_STAR_resource
+
+
+
+
+
+
+
+==**For drive_id according to the job use**==
+STAR DRIVE_ID SHAREPOINT
+SHAREPOINT_Coefficient_Repartition_DRIVE_ID
+SHAREPOINT_SAE_COMPTAGE_DRIVE_ID
+SHAREPOINT_KMP_Previsionnels_DRIVE_ID
+SHAREPOINT_ReCalcul_Histo_DRIVE_ID
+SHAREPOINT_Coefficient_Repartition_OD_DRIVE_ID
+SHAREPOINT_Recette_Mensuelle_DRIVE_ID
+SHAREPOINT_Calendrier_Reference_DRIVE_ID
 
 
 **Joblet de téléchargement (Download)**
@@ -42,7 +67,7 @@ Job Name:
 
 
 
-V 0.9: Remplacer le joblet FRK_Download_Sharepoint_Files par le nouveau joblet            FRK_Download_Graph_Files
+
 
 
 ==**FRK_DOWNLOAD_GRAPH_FILES  0.1 :**==
@@ -60,7 +85,7 @@ Output JSON parse it get token save in Gvar:  "sharepoint_access_token"
 Etap 2:  Liste files to download
              GET all files in the sharepoint_resource_path for that drive_id
 
- ![[Pasted image 20260316154219.png]]
+ 
              
 Etap3: Extract data from returend json
            extract id, name,microsoft_graph_downloadUrl and size
@@ -135,4 +160,9 @@ globalMap.put("current_file_length", Integer.toString(bytes.length));
 
 
 IF KO --> row14.message   Code: context.Log_300_Code_API_Post_KO
+
+
+
+V 0.9: Remplacer le joblet FRK_Download_Sharepoint_Files par le nouveau joblet FRK_Download_Graph_Files.<br/>
+
 
