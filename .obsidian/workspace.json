@@ -11,10 +11,14 @@
             "id": "f31949cef8215b58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects_Notes/STAR_03_2026/DEV Note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DEV Note"
             }
           }
         ]
@@ -202,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24d34b3e20251fdd",
+  "active": "f31949cef8215b58",
   "lastOpenFiles": [
+    "Projects_Notes/STAR_03_2026/DEV Note.md",
     "Untitled.canvas",
     "Star SharePoint doc.md",
     "Welcome.md",
