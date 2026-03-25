@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0516096b5901049f",
+        "id": "a7657fb35de675f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b7e7e1dd48834108",
+            "id": "f31949cef8215b58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "joblet-sharepoint-download.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "joblet-sharepoint-download"
+              "title": "New tab"
             }
           }
         ]
@@ -206,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7e7e1dd48834108",
+  "active": "24d34b3e20251fdd",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Star SharePoint doc.md",
