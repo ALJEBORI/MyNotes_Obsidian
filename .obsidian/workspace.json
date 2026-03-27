@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7657fb35de675f3",
+        "id": "bdb5eb5db2a4d82d",
         "type": "tabs",
         "children": [
           {
-            "id": "f31949cef8215b58",
+            "id": "7a6bac9e94dcf5e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects_Notes/STAR_03_2026/DEV Note.md",
+                "file": "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DEV Note"
+              "title": "joblet-sharepoint-download"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 254.5
   },
   "right": {
     "id": "0fe8a6ead60b9696",
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,12 +203,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f31949cef8215b58",
+  "active": "7a6bac9e94dcf5e2",
   "lastOpenFiles": [
-    "Projects_Notes/STAR_03_2026/DEV Note.md",
+    "Projects_Notes/STAR_03_2026/Functional Note.md",
+    "Projects_Notes/STAR_03_2026/Dev Note.md",
+    "Projects_Notes/STAR_03_2026/Pasted image 20260316160122.png",
+    "Projects_Notes/STAR_03_2026/Pasted image 20260316154900.png",
+    "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
+    "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
+    "Projects_Notes/Obsidian Work note.md",
+    "Projects_Notes/STAR_03_2026/Untitled.canvas",
     "Untitled.canvas",
     "Star SharePoint doc.md",
     "Welcome.md",
