@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
+                "file": "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "joblet-sharepoint-download"
+              "title": "Demand Joblet Sharepoint Graph"
             }
           }
         ]
@@ -203,19 +203,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7a6bac9e94dcf5e2",
   "lastOpenFiles": [
+    "Projects_Notes/Obsidian Work note.md",
+    "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
     "Projects_Notes/STAR_03_2026/Functional Note.md",
+    "Projects_Notes/STAR_03_2026/Star SharePoint doc.md",
+    "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
     "Projects_Notes/STAR_03_2026/Dev Note.md",
     "Projects_Notes/STAR_03_2026/Pasted image 20260316160122.png",
     "Projects_Notes/STAR_03_2026/Pasted image 20260316154900.png",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
-    "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
-    "Projects_Notes/Obsidian Work note.md",
     "Projects_Notes/STAR_03_2026/Untitled.canvas",
     "Untitled.canvas",
     "Star SharePoint doc.md",
