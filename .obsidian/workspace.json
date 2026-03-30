@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
+                "file": "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demand Joblet Sharepoint Graph"
+              "title": "joblet-sharepoint-upload"
             }
           }
         ]
@@ -192,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,16 +208,19 @@
   },
   "active": "7a6bac9e94dcf5e2",
   "lastOpenFiles": [
-    "Projects_Notes/Obsidian Work note.md",
-    "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
-    "Projects_Notes/STAR_03_2026/Functional Note.md",
-    "Projects_Notes/STAR_03_2026/Star SharePoint doc.md",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
-    "Projects_Notes/STAR_03_2026/Dev Note.md",
+    "Projects_Notes/STAR_03_2026/download_joblet_gettoken.canvas",
+    "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
+    "Pasted image 20260330164024.png",
+    "Projects_Notes/STAR_03_2026/Pasted image 20260316162541.png",
     "Projects_Notes/STAR_03_2026/Pasted image 20260316160122.png",
     "Projects_Notes/STAR_03_2026/Pasted image 20260316154900.png",
+    "Projects_Notes/STAR_03_2026/Functional Note.md",
+    "Projects_Notes/STAR_03_2026/Dev Note.md",
+    "Projects_Notes/STAR_03_2026/Pasted image 20260316153623.png",
+    "Projects_Notes/Obsidian Work note.md",
+    "Projects_Notes/STAR_03_2026/Star SharePoint doc.md",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
-    "Projects_Notes/STAR_03_2026/Untitled.canvas",
     "Untitled.canvas",
     "Star SharePoint doc.md",
     "Welcome.md",
@@ -228,8 +231,6 @@
     "Pasted image 20260316154900.png",
     "Pasted image 20260316154219.png",
     "Pasted image 20260316153623.png",
-    "Pasted image 20260316153751.png",
-    "Pasted image 20260316111542.png",
     "Untitled.md",
     "joblet-sharepoint-download 1.md",
     "Untitled.base",

@@ -22,14 +22,14 @@ Une application doit être enregistrée dans **Microsoft Entra ID** avec :
 
 Ces variables remontent dans le job parent. Elles représentent les paramètres d'infrastructure stables et n'ont généralement pas besoin d'être modifiées.
 
-| Variable | Valeur par défaut | Description |
-|---|---|---|
-| `MICROSOFT_GRAPH_BASEURL` | `https://graph.microsoft.com/v1.0` | URL de base de l'API Graph |
-| `AZURE_AUTH_ENDPOINT` | `https://login.microsoftonline.com` | Endpoint d'authentification Azure |
-| `AZURE_OAUTH_PATH` | `/oauth2/v2.0/token` | Chemin du token OAuth2 |
-| `MICROSOFT_GRAPH_SCOPE` | `https://graph.microsoft.com/.default` | Scope Client Credentials |
-| `MAX_NORMAL_UPLOAD_SIZE` | `250000000` (250 Mo) | Taille maximale d'un fichier uploadable |
-| `MAX_UPLOAD_SESSION_CHUNK_SIZE` | `10485760` (10 Mo) | Taille des chunks pour upload sessionné |
+| Variable                        | Valeur par défaut                      | Description                             |
+| ------------------------------- | -------------------------------------- | --------------------------------------- |
+| `MICROSOFT_GRAPH_BASEURL`       | `https://graph.microsoft.com/v1.0`     | URL de base de l'API Graph              |
+| `AZURE_AUTH_ENDPOINT`           | `https://login.microsoftonline.com`    | Endpoint d'authentification Azure       |
+| `AZURE_OAUTH_PATH`              | `/oauth2/v2.0/token`                   | Chemin du token OAuth2                  |
+| `MICROSOFT_GRAPH_SCOPE`         | `https://graph.microsoft.com/.default` | Scope Client Credentials                |
+| `MAX_NORMAL_UPLOAD_SIZE`        | `250000000` (250 Mo)                   | Taille maximale d'un fichier uploadable |
+| `MAX_UPLOAD_SESSION_CHUNK_SIZE` | `10485760` (10 Mo)                     | Taille des chunks pour upload sessionné |
 
 ---
 
