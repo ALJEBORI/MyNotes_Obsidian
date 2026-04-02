@@ -12,10 +12,10 @@
 			 4. Gare inconnu: when the ports of gare are forced to open like (jellet jeune) then at the destination Gare we don't know this vhicule enter from which . <mark style="background:#fff88f">soustype >0 not included in the calculation, table fstg_soustypegare_s</mark>  fig(D) below
 
 
+Fig (A)     
 
 
-
-
+![[Im_1_2.jpg]]
 
 
 
@@ -32,3 +32,6 @@
 		 
 - <font color="#8db3e2", size="+3">Concept of Comptage</font>
   imagine you enter to Gare VSS  and out from Gare Vss soud , then between these two Gare there were many sections like S1, S2 and we put sensors on it (prn for counting). Then this is OD and contines section S1 like peage P and section S2 comptage T (this is specified in the traficrepresentative column)--> we will find in the table pit_parcoursitienirair  some sections peage P and some sections comptage T. And after Vss soud  you continue to Lyon where from Vss soud to Lyon there were only comptage sections (no entry gare or out Gare). Also note that there were some sections like S5 we don't have info about it so we will take his info like the section S4 (this done in the file ) completion reference if we don't find it there we will find it in the complétion manual (this two methods used to create the table SAE_SAE)
+
+
+![[Im_3_4.jpg]]

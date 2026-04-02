@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects_Notes/STAR_03_2026/Dev Note.md",
+                "file": "Projects_Notes/STAR_03_2026/Doc_Functional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dev Note"
+              "title": "Doc_Functional"
             }
           }
         ]
@@ -208,14 +208,17 @@
   },
   "active": "0ae14f920be8666d",
   "lastOpenFiles": [
+    "Im_3_4.jpg",
+    "Im_1_2.jpg",
+    "im_2.jpg",
+    "im_1.jpg",
+    "Projects_Notes/STAR_03_2026/Dev Note.md",
     "Projects_Notes/Different_Notes/French Dic.md",
     "Projects_Notes/STAR_03_2026/Pasted image 20260330164024.png",
     "Projects_Notes/Different_Notes",
     "Projects_Notes/STAR_03_2026/Doc_Functional.md",
-    "im_1.jpg",
     "801498e5-0a27-435e-853d-3bd4b9702ffd.jfif",
     "Projects_Notes/STAR_03_2026/download_joblet_gettoken.canvas",
-    "Projects_Notes/STAR_03_2026/Dev Note.md",
     "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
@@ -233,8 +236,6 @@
     "joblet-sharepoint-upload.md",
     "Pasted image 20260316162541.png",
     "Pasted image 20260316160122.png",
-    "Pasted image 20260316154900.png",
-    "Pasted image 20260316154219.png",
     "Untitled.md",
     "joblet-sharepoint-download 1.md",
     "Untitled.base",
