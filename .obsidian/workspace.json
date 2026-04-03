@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
+                "file": "Projects_Notes/STAR_03_2026/Livraison.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "joblet-sharepoint-upload"
+              "title": "Livraison"
             }
           }
         ],
@@ -221,13 +221,14 @@
   },
   "active": "0fea0457967a26cb",
   "lastOpenFiles": [
+    "Projects_Notes/STAR_03_2026/Dev Note.md",
+    "Projects_Notes/STAR_03_2026/Livraison.md",
+    "Projects_Notes/STAR_03_2026/Functional Note.md",
+    "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
     "Projects_Notes/STAR_03_2026/Star SharePoint doc.md",
     "Projects_Notes/STAR_03_2026/Doc_Functional.md",
     "Projects_Notes/STAR_03_2026/Demand Joblet Sharepoint Graph.md",
-    "Projects_Notes/STAR_03_2026/joblet-sharepoint-upload.md",
     "Projects_Notes/STAR_03_2026/joblet-sharepoint-download.md",
-    "Projects_Notes/STAR_03_2026/Functional Note.md",
-    "Projects_Notes/STAR_03_2026/Dev Note.md",
     "Projects_Notes/STAR_03_2026/Welcome.md",
     "Projects_Notes/STAR_03_2026/photos/download_joblet_gettoken.canvas",
     "Projects_Notes/STAR_03_2026/photos/Im_1_2.jpg",
