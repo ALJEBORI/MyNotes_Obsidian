@@ -51,16 +51,16 @@ Le joblet reçoit ses paramètres via un flux d'entrée (`tFixedFlowInput` ou é
 
 > 📁 Doit provenir d'un **contexte projet**. Permet de cibler des drives différents dans un même job.
 
-| Colonne | Description |
-|---|---|
+| Colonne    | Description                                      |
+| ---------- | ------------------------------------------------ |
 | `drive_id` | ID de la librairie de documents SharePoint cible |
 
 ### Paramètres fonctionnels
 
-| Colonne | Type | Description |
-|---|---|---|
-| `local_directory_path` | String | Répertoire local contenant les fichiers à envoyer (ex : `C:/data/exports/`) |
-| `file_filter` | String | Filtre de fichiers au format glob (ex : `*.csv`, `export_*.xml`) |
+| Colonne                  | Type   | Description                                                                                            |
+| ------------------------ | ------ | ------------------------------------------------------------------------------------------------------ |
+| `local_directory_path`   | String | Répertoire local contenant les fichiers à envoyer (ex : `C:/data/exports/`)                            |
+| `file_filter`            | String | Filtre de fichiers au format glob (ex : `*.csv`, `export_*.xml`)                                       |
 | `sharepoint_folder_path` | String | Chemin du dossier de destination dans SharePoint, relatif à la racine du drive (ex : `/Sortants/2025`) |
 
 #### À propos du filtre de fichiers

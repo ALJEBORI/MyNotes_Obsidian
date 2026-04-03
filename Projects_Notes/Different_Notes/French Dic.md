@@ -22,6 +22,7 @@ quitte à = even if
 quitte à pas= even if it means not 
 je pige pas =I don't understand
 J'ai mis du temps = It took me a while
+tergiverser = to procrastinate= المماطلة
 
 
 
