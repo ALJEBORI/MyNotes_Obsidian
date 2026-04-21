@@ -23,6 +23,10 @@ quitte à pas= even if it means not
 je pige pas =I don't understand
 J'ai mis du temps = It took me a while
 tergiverser = to procrastinate= المماطلة
+ doué=gifted 
+ Tu es doué= You're talented
+ la tendance= the trend
+ détronera =will dethrone ,  سوف يطيح
 
 
 
