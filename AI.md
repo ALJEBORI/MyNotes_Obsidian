@@ -353,5 +353,12 @@ SSL:      require
 ```
 
 postgresql://helios_read:Helios2026Read!@gondola.proxy.rlwy.net:53697/railway?sslmode=require
-
 ```
+
+
+
+La tâche:  
+  
+- Il faut créer un ensemble d'outils pour répondre aux besoins métiers décrits dans les notes  
+- Ce sont des demandes de départements d'une entreprise fictive qui veut permettre aux employés un accès rapide et fiable aux données entre autre  
+- Libre à vous de décider la composition de ces outils: skills, mcp, les différents outils, etc
