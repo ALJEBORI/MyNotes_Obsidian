@@ -27,7 +27,7 @@ tergiverser = to procrastinate= المماطلة
  Tu es doué= You're talented
  la tendance= the trend
  détronera =will dethrone ,  سوف يطيح
-
+étant donné que, Puisque, Du fait que = given that 
 
 
 Je me concentrerai sur deux de mes missions à Hardis
